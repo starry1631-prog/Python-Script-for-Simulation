@@ -71,21 +71,3 @@ Download the repository, open a terminal in the repository folder and run:
 ```bash
 pip install -r requirements.txt
 python limgrave_coastal_isolation_with_auxiliary_chart.py
-Outputs
-
-The script creates a folder named limgrave_output_revised containing:
-
-limgrave_evolution_comparison.png;
-limgrave_bridge_width_auxiliary.png;
-limgrave_final_3d.png; and
-limgrave_isolation.gif.
-
-These outputs include the terrain comparison and connection-width graph used as Figures 11 and 12 in the article.
-
-Limitations
-
-The model is dimensionless, rule-based and uncalibrated. It tests whether erosional separation is geometrically possible under the imposed rules rather than reconstructing the actual history, timescale or lithology of Limgrave’s coastline.
-
-Licence
-
-The code is released under the MIT License.
